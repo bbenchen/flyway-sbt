@@ -3,7 +3,10 @@
 ### Getting started
 Adding Flyway to your build is very easy. First, update to your `project/plugin.sbt` file to include:
 ```sbtshell
- addSbtPlugin("cn.51scala" % "flyway-sbt" % "5.2.3")
+ // the library is available in Bintray repository
+ resolvers += "cxb811201" at "https://dl.bintray.com/cxb811201/sbt-plugins"
+ 
+ addSbtPlugin("cn.51scala" % "flyway-sbt" % "5.2.4")
 ```
 
 Edit `build.sbt` to enable the plugin and configure the database access:

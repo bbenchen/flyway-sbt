@@ -40,7 +40,7 @@ object Build {
     .settings(
       name := "flyway-sbt",
       libraryDependencies ++= Seq(
-        "org.flywaydb" % "flyway-core" % "5.2.3"
+        "org.flywaydb" % "flyway-core" % "5.2.4"
       ),
       scriptedLaunchOpts := { scriptedLaunchOpts.value ++
         Seq("-Xmx1024M", "-Dplugin.version=" + version.value)
