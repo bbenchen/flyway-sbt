@@ -24,6 +24,8 @@ ensime.sbt
 .ensime_cache
 .sbt-hydra-history
 /db
+.bloop
+.metals
 
 # Mac
 .DS_Store
