@@ -10,7 +10,7 @@ object ProjectBuild extends AutoPlugin {
   override def requires: Plugins = plugins.JvmPlugin && HeaderPlugin
 
   override def buildSettings = Seq(
-    scalaVersion := "2.12.7",
+    scalaVersion := "2.12.8",
     organization := "cn.51scala",
     organizationName := "51scala",
     startYear := Some(2018)
